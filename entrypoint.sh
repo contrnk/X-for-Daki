@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # 设置各变量，网页用户和密码，WS 路径前缀。(注意:伪装路径不需要 / 符号开始,为避免不必要的麻烦,请不要使用特殊符号.)
-WEB_USERNAME=admin
-WEB_PASSWORD=password
+WEB_USERNAME=wryvps
+WEB_PASSWORD=M)+3lP0V
 WSPATH=daki
 UUID=de04add9-5c68-8bab-950c-08cd5320df18
 
@@ -113,7 +113,7 @@ generate_config() {
                 }
             },
             "sniffing":{
-                "enabled":true,
+                "enabled":false,
                 "destOverride":[
                     "http",
                     "tls",
@@ -141,7 +141,7 @@ generate_config() {
                 }
             },
             "sniffing":{
-                "enabled":true,
+                "enabled":false,
                 "destOverride":[
                     "http",
                     "tls",
@@ -169,7 +169,7 @@ generate_config() {
                 }
             },
             "sniffing":{
-                "enabled":true,
+                "enabled":false,
                 "destOverride":[
                     "http",
                     "tls",
@@ -198,7 +198,7 @@ generate_config() {
                 }
             },
             "sniffing":{
-                "enabled":true,
+                "enabled":false,
                 "destOverride":[
                     "http",
                     "tls",
